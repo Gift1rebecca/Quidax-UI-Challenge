@@ -1,7 +1,11 @@
+#bookcover{
+	padding-top: 50px;
+}
+
 #bookcover img{
 	margin-top: 10px;
-	width:600px;
-	height:800px;
+	width:100%;
+	height:550px;
 }
 p{
 	font-style: bold;
