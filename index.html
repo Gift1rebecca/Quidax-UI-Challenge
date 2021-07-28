@@ -16,14 +16,57 @@
     <link href="css/font-awesome.css" rel="stylesheet">
   </head>
   <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <p class="navbar-brand">FEATURED BOOKS</p>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Quidax Book Club</a>
+          <p> Admin</p>
         </div>
-        </div><!--/.nav-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-lg navbar-right">
+            <input type="text" class="form-control" placeholder="Search books, genres, etc.">
+          </form>
+        </div>
+      </div>
     </nav>
 
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Notifications</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+          	<li>Explore <span class="sr-only">(current)</span></a></li>
+            <li>Books</a></li>
+            <li>Genres</a></li>
+            <li>Authors</a></li>
+          </ul><hr>
+          <ul class="nav nav-sidebar">
+          	<li><a href="#">My Books <span class="sr-only">(current)</span></a></li>
+            <li>Queued</a></li>
+            <li>Currently Borrowed</a></li>
+            <li>Favoured</a></li>
+            <li>History</a></li>
+          </ul><hr>
+          	<ul class="nav nav-sidebar">
+          	<li><a href="#">Admins <span class="sr-only">(current)</span></a></li>
+            <li>Book Requests</a></li>
+            <li>Members</a></li>
+            <li>Library</a></li>
+          </ul>
+
+        </div>
 
 <section id="bookcover">
 	<div class="container">
