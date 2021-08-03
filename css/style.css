@@ -1,17 +1,21 @@
-#bookcover{
+section{
 	margin-top: 100px;
+	margin-left:20%;
 }
+
+
+
 .sidebar{
 	margin-top: 100px;
 }
 
-#bookcover img{
+section img{
 	margin-top: 10px;
-	width:135px;
+	width:100%;
 	height:370px;
 }
 p{
 	font-style: bold;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 

@@ -26,117 +26,111 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <span><p><i class="fa fa-book fa-1x"></i><a class="navbar-brand" href="#">Quidax Book Club</a></p></span>
-          <p> Admin</p>
+          <span><p><i class="fa fa-book fa-2x"></i><a class="navbar-brand" href="#">Quidax Book Club</a></p></span>
+          <h6> Admin</h6>
         </div>
          <div id="navbar" class="navbar-collapse collapse navbar-right">
-        	<p><span><i class="fa fa-book fa-1x"></i>   <i class="fa fa-bell-o fa-1x"></i>    <i class="fa fa-user-circle-o fa-1x"></i>
+        	<p><span><i class="fa fa-book fa-2x"></i>   <i class="fa fa-bell-o fa-2x"></i>    <i class="fa fa-user-circle-o fa-2x"></i>
       </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-lg navbar-md">
-            <input type="text" class="form-control" placeholder="Search books, genres, etc.">
-            <button type="submit" class="btn btn-success"><i class="fa fa-search"></i></button>
+        
+        <div id="navbar" class="navbar-collapse navbar-lg">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Search books,genres,authors,etc." class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success"><i class="fa fa-search fa-2x"></i></button>
           </form>
-        </div>
-       
+        </div><!--/.navbar-collapse -->   
     </nav>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#"><p>Home</p> <span class="sr-only">(current)</span></a></li>
-            <li><p>Profile</p></a></li>
-            <li><p class="pull-right">3</p><p>Notifications</p></li>
+
+  <!-- Side Bar -->
+  <div class="sidebar bar-block" style="width:20%;">
+  		<ul class="nav nav-sidebar">
+            <li class="active bar-item button"><a href="#"><p>Home</p> <span class="sr-only">(current)</span></a></li>
+            <li style="text-decoration-color:none;"><a href="#">Profile</a></a></li>
+            <li style="text-decoration-color:none;"><a href="#"><p class="pull-right">3</p><p>Notifications</p></a></li>
           </ul><br><br>
           <ul class="nav nav-sidebar">
-          	<li><b>Explore</b><span class="sr-only">(current)</span></a></li><br>
-            <li><p class="pull-right">273</p><p>Books</p></li>
-            <li><p class="pull-right">42</p><p>Genres</p></li>
-            <li><p class="pull-right">106</p><p>Authors</p></li>
+          	<li style="text-decoration:none;" class="bar-item button"><a href="#"><b>Explore</b><span class="sr-only">(current)</span></a></li></li><br>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">273</p><p>Books</p></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">42</p><p>Genres</p></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">106</p><p>Authors</p></a></li>
           </ul><br><hr><br>
           <ul class="nav nav-sidebar">
-          	<li><b>My Books </b><span class="sr-only">(current)</span></a></li>
-            <li><p class="pull-right">3</p><p>Queued</p></li>
-            <li><p class="pull-right">0</p><p>Currently Borrowed</p></li>
-            <li><p class="pull-right">19</p><p>Favourites</p></li>
-            <li>History</li>
+          	<li style="text-decoration:none;" class="bar-item button"><a href="#"><b>My Books </b><span class="sr-only">(current)</span></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">3</p><p>Queued</p></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">0</p><p>Currently Borrowed</p></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">19</p><p>Favourites</p></a></li>
+            <li style="text-decoration:none;"><a href="#">History</a></li>
           </ul><br><hr><br>
           	<ul class="nav nav-sidebar">
-          	<li><b>Admin</b> <span class="sr-only">(current)</span></a></li><br>
-            <li><p class="pull-right">2</p><p>Book Requests</p></li>
-            <li><p class="pull-right">34</p><p>Members</p></li>
-            <li>Library Settings</li>
+          	<li style="text-decoration:none;" class="bar-item button"><a href="#"><b>Admin</b> <span class="sr-only">(current)</span></a></li><br>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">2</p><p>Book Requests</p></a></li>
+            <li style="text-decoration:none;"><a href="#"><p class="pull-right">34</p><p>Members</p></a></li>
+            <li style="text-decoration:none;"><a href="#">Library Settings</a></li>
           </ul>
+</div>
 
-        </div>
 
-<section id="bookcover">
+<section>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-3 col-md-3.3 bookcover">
+			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-6">
 						<img src="img/big magic.png">
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-6 letterings">
 						<h3 style="color:green;"><strong> Available</strong></h3>
 						<h2 style=font-style:bold;> <strong>Big Magic</strong></h2>
 						<p> Elizabeth Gilbert - 2014</p>
 						<p> Motivational</p>
 							<div class="Ratings">
-								<p> Ratings: 4.0</p><span class="text-muted mx-2">|</span>
-								<p> <span> <i class="fa fa-user fa-2x"></i>   <i class="fa fa-heart-o fa-2x"></i></span></p>
-								<p><span class="glyphicon glyphicon-star"></span>
-								<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p><span class="text-muted mx-2">|</span>
-								<span><p>31   29</p></span>
-							</div>
+							<p class="pull-right"><i class="fa fa-user fa-1x"></i>   <i class="fa fa-heart-o fa-1x"></i></p><p>Ratings:  4.0 |</p>
+							<p class="pull-right"><b>31 29</b></p><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty">       | </span></p>	
+					</div>
 					</div>
 				</div>
-			</div>
+				</div>
 
-			<div class="col-sm-3 col-md-3.3">
+			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-6">
 						<img src="img/big magic.png">
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-6 letterings">
 						<h3 style="color:green;"><strong> Available</strong></h3>
 						<h2 style=font-style:bold;> <strong>Big Magic</strong></h2>
 						<p> Elizabeth Gilbert - 2014</p>
 						<p> Motivational</p>
 						<div class="Ratings">
-								<p> Ratings: 4.0</p><span class="text-muted mx-2">|</span>
-								<p> <span> <i class="fa fa-user fa-2x"></i>   <i class="fa fa-heart-o fa-2x"></i></span></p>
-								<p><span class="glyphicon glyphicon-star"></span>
-								<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p><span class="text-muted mx-2">|</span>
-								<span><p>31   29</p></span>
-							</div>
+							<p class="pull-right"><i class="fa fa-user fa-1x"></i>   <i class="fa fa-heart-o fa-1x"></i></p><p>Ratings:  4.0 |</p>
+							<p class="pull-right"><b>  31 29</b></p><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty">      | </span></p>
 					</div>
 				</div>
 			</div>
+			</div>
 
-			<div class="col-sm-3 col-md-3.3">
+			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-6">
 						<img src="img/big magic.png">
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-6 letterings">
 						<h3 style="color:green;"><strong> Available</strong></h3>
 						<h2 style=font-style:bold;> <strong>Big Magic</strong></h2>
 						<p> Elizabeth Gilbert - 2014</p>
 						<p> Motivational</p>
 						<div class="Ratings">
-								<p> Ratings: 4.0</p><span class="text-muted mx-2">|</span>
-								<p> <span> <i class="fa fa-user fa-2x"></i>   <i class="fa fa-heart-o fa-2x"></i></span></p>
-								<p><span class="glyphicon glyphicon-star"></span>
-								<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p><span class="text-muted mx-2">|</span>
-								<span><p>31   29</p></span>
-							</div>
+							<p class="pull-right"><i class="fa fa-user fa-1x"></i>   <i class="fa fa-heart-o fa-1x"></i></p><p>Ratings:  4.0 |</p>
+							<p class="pull-right"><b>  31 29</b></p><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"> | </span></p>
 					</div>
+				</div>
+			</div>
 				</div>
 			</div>
 		</div>
