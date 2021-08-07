@@ -42,7 +42,7 @@ body {
 }
 
 .sidebar .nav-linkactive {
-  color: #3ded97;
+  color: #3cb043;
   text-decoration:none;
 }
 
@@ -97,7 +97,7 @@ img{
 .circle {
         border-radius: 50%;
         width: 30px;
-        background: #3ded97;
+        background: #3cb043;
         color: #fff;
         text-align: center;
         font-size:.875rem;
