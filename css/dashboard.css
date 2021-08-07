@@ -37,16 +37,13 @@ body {
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: #333;
-}
-
-.sidebar .nav-link {
   margin-right: 4px;
-  color: #727272;
+  color: #000000;
 }
 
-.sidebar .nav-link.active {
-  color: #2470dc;
+.sidebar .nav-linkactive {
+  color: #3ded97;
+  text-decoration:none;
 }
 
 .sidebar .nav-link:hover ,
@@ -96,3 +93,12 @@ img{
 .input-group{
   border-color:#000000;
 }
+
+.circle {
+        border-radius: 50%;
+        width: 30px;
+        background: #3ded97;
+        color: #fff;
+        text-align: center;
+        font-size:.875rem;
+      }
