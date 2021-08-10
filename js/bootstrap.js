@@ -4979,6 +4979,16 @@
     }
 
   }
+
+
+  var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
+
+new Splide( '.splide', {
+  type     : 'loop',
+  autoWidth: true,
+  focus    : 'center',
+} ).mount();
   /**
    * ------------------------------------------------------------------------
    * jQuery

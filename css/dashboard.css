@@ -26,7 +26,13 @@ body {
     top: 5rem;
   }
 }
+#sidebarMenu {
+  background: rgba(128, 128, 128,);
+}
 
+nav{
+  position:fixed;
+}
 .sidebar-sticky {
   position: relative;
   top: 0;
@@ -71,6 +77,9 @@ img{
 /*
  * Navbar
  */
+.navbar .navbar-light {
+  position:fixed;
+}
 
 .navbar-brand {
   padding-top: .75rem;
@@ -91,7 +100,7 @@ img{
 }
 
 .input-group{
-  border-color:#000000;
+  border-color:#808080;
 }
 
 .circle {
